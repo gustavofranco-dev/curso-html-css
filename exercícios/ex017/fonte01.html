@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pq
+
+            Medidas Relativas
+            em, ex, rem, vw, %
+            16px geralmente = 1em
+            */
+            /* Peso da Fonte(Font-Weight)
+             lighter normal bold  bolder  */
+        
+        }
+        /* Podem Ser Confundidos Cuidado!
+         weight(peso) width(largura) height(altura)*/
+        p {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1 {
+             /* Sem Utilizar Shorthand
+           font-family: 'Work Sans', 'sans-serif';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /*Shorthand(font)
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'Work Sans', 'sans-serif';
+        }
+        
+        h2 {
+           font: bold 2em 'Work Sans'; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, eaque et reprehenderit, esse repudiandae nobis, quas soluta necessitatibus neque perferendis hic. Quae beatae quidem, repudiandae recusandae error praesentium et eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur placeat totam officiis vero distinctio blanditiis dolorem repudiandae, explicabo quaerat quia quidem expedita, tenetur, accusantium adipisci? Amet eius soluta minus nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, doloribus assumenda autem, unde consequuntur hic inventore quibusdam exercitationem corrupti eum nihil explicabo temporibus adipisci ab voluptas nemo ex fugit deserunt!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, nostrum. Sint velit ducimus nobis, recusandae eum quas beatae at neque aliquid, nihil odio fuga saepe aut minus. Saepe, nesciunt qui!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur suscipit voluptates porro libero qui fuga ea facilis dolorum voluptas minus aspernatur placeat cum non, ipsam sequi quod. Enim, illum porro. lorem</p>
+</body>
+</html>
